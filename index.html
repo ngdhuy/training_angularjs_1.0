@@ -14,8 +14,9 @@
             <h3>
                 {{product.name}}
                 <em class="pull-right">{{product.price | currency}}</em>
+                <img ng-src="images/{{product.images[0].full}}" />
             </h3>
-            <img ng-src="images/{{product.images[0].full}}" />
+            
         </li>
     </ul>
     
