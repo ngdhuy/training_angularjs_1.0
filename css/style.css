@@ -2,10 +2,27 @@
     float: right;
 }
 
-img {
+.img-main{
     display: block;
     margin: auto;
     height: 100px;
+}
+
+.lst-img {
+    display: block;
+    margin: auto;
+    width: 120px;
+}
+
+.lst-img img {
+    display: block;
+    margin: 5px;
+    height: 30px;
+    float: left;
+}
+
+.clear{
+    clear: both;
 }
 
 .ng-invalid.ng-dirty{
